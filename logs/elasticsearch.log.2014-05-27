@@ -1,0 +1,40 @@
+[2014-05-27 18:51:24,017][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2014-05-27 18:51:24,025][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: initializing ...
+[2014-05-27 18:51:24,041][INFO ][plugins                  ] [Thor Girl] loaded [analysis-kuromoji], sites []
+[2014-05-27 18:51:27,721][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: initialized
+[2014-05-27 18:51:27,721][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: starting ...
+[2014-05-27 18:51:27,800][INFO ][transport                ] [Thor Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.104:9300]}
+[2014-05-27 18:51:30,889][INFO ][cluster.service          ] [Thor Girl] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-05-27 18:51:30,938][INFO ][discovery                ] [Thor Girl] elasticsearch/Jx5lyIQbRrWt4lkwTPBdbg
+[2014-05-27 18:51:30,944][INFO ][http                     ] [Thor Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.104:9200]}
+[2014-05-27 18:51:30,944][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: started
+[2014-05-27 18:51:34,709][WARN ][monitor.jvm              ] [Thor Girl] [gc][ParNew][6][2] duration [1s], collections [1]/[1.9s], total [1s]/[1.2s], memory [72.4mb]->[27.2mb]/[1011.2mb], all_pools {[Code Cache] [1.7mb]->[2.2mb]/[32mb]}{[Par Eden Space] [54.1mb]->[1.6mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[12.7mb]/[12.7mb]}{[CMS Old Gen] [5.5mb]->[12.8mb]/[896mb]}{[CMS Perm Gen] [17mb]->[18.1mb]/[64mb]}
+[2014-05-27 19:17:37,117][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: stopping ...
+[2014-05-27 19:17:37,915][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: stopped
+[2014-05-27 19:17:37,915][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: closing ...
+[2014-05-27 19:17:38,056][INFO ][node                     ] [Thor Girl] {0.90.0}[1940]: closed
+[2014-05-27 19:17:45,725][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2014-05-27 19:17:45,764][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: initializing ...
+[2014-05-27 19:17:45,842][INFO ][plugins                  ] [Lang, Cassie] loaded [analysis-kuromoji], sites []
+[2014-05-27 19:17:49,660][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: initialized
+[2014-05-27 19:17:49,660][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: starting ...
+[2014-05-27 19:17:49,812][INFO ][transport                ] [Lang, Cassie] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.104:9300]}
+[2014-05-27 19:17:53,132][INFO ][cluster.service          ] [Lang, Cassie] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-05-27 19:17:53,173][INFO ][discovery                ] [Lang, Cassie] elasticsearch/NV0QsJikRjmv1GChqfbjOQ
+[2014-05-27 19:17:53,179][INFO ][http                     ] [Lang, Cassie] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.104:9200]}
+[2014-05-27 19:17:53,179][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: started
+[2014-05-27 19:20:17,518][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: stopping ...
+[2014-05-27 19:20:17,880][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: stopped
+[2014-05-27 19:20:17,881][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: closing ...
+[2014-05-27 19:20:17,888][INFO ][node                     ] [Lang, Cassie] {0.90.0}[20489]: closed
+[2014-05-27 19:21:12,951][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2014-05-27 19:21:12,962][INFO ][node                     ] [Vishanti] {0.90.0}[2188]: initializing ...
+[2014-05-27 19:21:12,975][INFO ][plugins                  ] [Vishanti] loaded [analysis-kuromoji], sites []
+[2014-05-27 19:21:15,242][INFO ][node                     ] [Vishanti] {0.90.0}[2188]: initialized
+[2014-05-27 19:21:15,242][INFO ][node                     ] [Vishanti] {0.90.0}[2188]: starting ...
+[2014-05-27 19:21:15,314][INFO ][transport                ] [Vishanti] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.104:9300]}
+[2014-05-27 19:21:18,606][INFO ][cluster.service          ] [Vishanti] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-05-27 19:21:18,650][INFO ][discovery                ] [Vishanti] elasticsearch/ry4sETPURE-PKFufc_21pw
+[2014-05-27 19:21:18,655][INFO ][http                     ] [Vishanti] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.104:9200]}
+[2014-05-27 19:21:18,655][INFO ][node                     ] [Vishanti] {0.90.0}[2188]: started
+[2014-05-27 20:51:32,691][WARN ][monitor.jvm              ] [Vishanti] [gc][ParNew][5402][6] duration [7.7s], collections [1]/[8s], total [7.7s]/[7.9s], memory [147.3mb]->[52.1mb]/[1011.2mb], all_pools {[Code Cache] [3.8mb]->[3.8mb]/[32mb]}{[Par Eden Space] [102.4mb]->[1.4mb]/[102.5mb]}{[Par Survivor Space] [12.5mb]->[11.3mb]/[12.7mb]}{[CMS Old Gen] [32.3mb]->[39.2mb]/[896mb]}{[CMS Perm Gen] [19.5mb]->[19.5mb]/[64mb]}

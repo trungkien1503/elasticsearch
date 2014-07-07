@@ -1,0 +1,10 @@
+[2014-04-03 16:41:14,094][INFO ][node                     ] [Network] {0.90.0}[2330]: initializing ...
+[2014-04-03 16:41:14,151][INFO ][plugins                  ] [Network] loaded [analysis-kuromoji], sites []
+[2014-04-03 16:41:21,905][INFO ][node                     ] [Network] {0.90.0}[2330]: initialized
+[2014-04-03 16:41:21,905][INFO ][node                     ] [Network] {0.90.0}[2330]: starting ...
+[2014-04-03 16:41:22,202][INFO ][transport                ] [Network] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.199:9300]}
+[2014-04-03 16:41:25,537][INFO ][cluster.service          ] [Network] new_master [Network][ejS0zbtPQiKLUe5OnkAqwQ][inet[/192.168.1.199:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-03 16:41:25,585][INFO ][discovery                ] [Network] elasticsearch/ejS0zbtPQiKLUe5OnkAqwQ
+[2014-04-03 16:41:25,620][INFO ][http                     ] [Network] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.199:9200]}
+[2014-04-03 16:41:25,621][INFO ][node                     ] [Network] {0.90.0}[2330]: started
+[2014-04-03 16:41:27,322][INFO ][gateway                  ] [Network] recovered [7] indices into cluster_state

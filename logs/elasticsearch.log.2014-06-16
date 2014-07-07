@@ -1,0 +1,15 @@
+[2014-06-16 17:14:19,674][INFO ][node                     ] [Fisk, Richard] {0.90.0}[2166]: initializing ...
+[2014-06-16 17:14:19,792][INFO ][plugins                  ] [Fisk, Richard] loaded [analysis-pinyin, analysis-kuromoji], sites []
+[2014-06-16 17:14:46,816][INFO ][node                     ] [Fisk, Richard] {0.90.0}[2166]: initialized
+[2014-06-16 17:14:46,816][INFO ][node                     ] [Fisk, Richard] {0.90.0}[2166]: starting ...
+[2014-06-16 17:14:47,468][INFO ][transport                ] [Fisk, Richard] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.181.128:9300]}
+[2014-06-16 17:14:50,832][INFO ][cluster.service          ] [Fisk, Richard] new_master [Fisk, Richard][3TQXEcJDSY6PLZqjr3h1Cg][inet[/192.168.181.128:9300]], reason: zen-disco-join (elected_as_master)
+[2014-06-16 17:14:51,171][INFO ][discovery                ] [Fisk, Richard] elasticsearch/3TQXEcJDSY6PLZqjr3h1Cg
+[2014-06-16 17:14:51,283][INFO ][http                     ] [Fisk, Richard] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.181.128:9200]}
+[2014-06-16 17:14:51,283][INFO ][node                     ] [Fisk, Richard] {0.90.0}[2166]: started
+[2014-06-16 17:14:56,464][INFO ][gateway                  ] [Fisk, Richard] recovered [10] indices into cluster_state
+[2014-06-16 17:41:01,439][INFO ][cluster.metadata         ] [Fisk, Richard] [photos] deleting index
+[2014-06-16 17:41:01,814][INFO ][cluster.metadata         ] [Fisk, Richard] [photos] creating index, cause [api], shards [5]/[1], mappings [photo]
+[2014-06-16 17:46:21,795][INFO ][cluster.metadata         ] [Fisk, Richard] [photos] deleting index
+[2014-06-16 17:46:22,098][INFO ][cluster.metadata         ] [Fisk, Richard] [photos] creating index, cause [api], shards [5]/[1], mappings [photo]
+[2014-06-16 17:47:40,332][INFO ][cluster.metadata         ] [Fisk, Richard] [photos] update_mapping [photo] (dynamic)

@@ -1,0 +1,2 @@
+[2014-06-06 09:42:27,227][INFO ][cluster.metadata         ] [Manikin] [activities] deleting index
+[2014-06-06 09:42:27,703][INFO ][cluster.metadata         ] [Manikin] [activities] creating index, cause [api], shards [5]/[1], mappings [activity]

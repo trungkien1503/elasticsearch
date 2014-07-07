@@ -1,0 +1,10 @@
+[2014-06-09 19:42:48,774][INFO ][node                     ] [Shroud] {0.90.0}[2264]: initializing ...
+[2014-06-09 19:42:48,787][INFO ][plugins                  ] [Shroud] loaded [analysis-kuromoji], sites []
+[2014-06-09 19:43:04,534][INFO ][node                     ] [Shroud] {0.90.0}[2264]: initialized
+[2014-06-09 19:43:04,534][INFO ][node                     ] [Shroud] {0.90.0}[2264]: starting ...
+[2014-06-09 19:43:04,655][INFO ][transport                ] [Shroud] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.146:9300]}
+[2014-06-09 19:43:07,934][INFO ][cluster.service          ] [Shroud] new_master [Shroud][hF1cHIT7SZqopyboDL_M2w][inet[/192.168.217.146:9300]], reason: zen-disco-join (elected_as_master)
+[2014-06-09 19:43:08,026][INFO ][discovery                ] [Shroud] elasticsearch/hF1cHIT7SZqopyboDL_M2w
+[2014-06-09 19:43:08,076][INFO ][http                     ] [Shroud] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.146:9200]}
+[2014-06-09 19:43:08,076][INFO ][node                     ] [Shroud] {0.90.0}[2264]: started
+[2014-06-09 19:43:17,660][INFO ][gateway                  ] [Shroud] recovered [9] indices into cluster_state

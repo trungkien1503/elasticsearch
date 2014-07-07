@@ -1,0 +1,24 @@
+[2013-12-18 23:42:37,502][INFO ][node                     ] [Cold War] {0.90.0}[15729]: initializing ...
+[2013-12-18 23:42:37,509][INFO ][plugins                  ] [Cold War] loaded [], sites []
+[2013-12-18 23:42:40,565][INFO ][node                     ] [Cold War] {0.90.0}[15729]: initialized
+[2013-12-18 23:42:40,566][INFO ][node                     ] [Cold War] {0.90.0}[15729]: starting ...
+[2013-12-18 23:42:40,802][INFO ][transport                ] [Cold War] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.130:9300]}
+[2013-12-18 23:42:44,057][INFO ][cluster.service          ] [Cold War] new_master [Cold War][OASa6fyLRzKAWJFxLv84jQ][inet[/192.168.217.130:9300]], reason: zen-disco-join (elected_as_master)
+[2013-12-18 23:42:44,093][INFO ][discovery                ] [Cold War] elasticsearch/OASa6fyLRzKAWJFxLv84jQ
+[2013-12-18 23:42:44,115][INFO ][http                     ] [Cold War] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.130:9200]}
+[2013-12-18 23:42:44,115][INFO ][node                     ] [Cold War] {0.90.0}[15729]: started
+[2013-12-18 23:42:44,193][INFO ][gateway                  ] [Cold War] recovered [0] indices into cluster_state
+[2013-12-18 23:42:45,376][INFO ][node                     ] [Cold War] {0.90.0}[15729]: stopping ...
+[2013-12-18 23:42:45,607][INFO ][node                     ] [Cold War] {0.90.0}[15729]: stopped
+[2013-12-18 23:42:45,608][INFO ][node                     ] [Cold War] {0.90.0}[15729]: closing ...
+[2013-12-18 23:42:45,618][INFO ][node                     ] [Cold War] {0.90.0}[15729]: closed
+[2013-12-18 23:51:56,205][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: initializing ...
+[2013-12-18 23:51:56,218][INFO ][plugins                  ] [Toynbee, Mortimer] loaded [analysis-kuromoji], sites []
+[2013-12-18 23:51:58,919][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: initialized
+[2013-12-18 23:51:58,920][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: starting ...
+[2013-12-18 23:51:59,365][INFO ][transport                ] [Toynbee, Mortimer] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.130:9300]}
+[2013-12-18 23:52:02,634][INFO ][cluster.service          ] [Toynbee, Mortimer] new_master [Toynbee, Mortimer][konEh93yRlWQa9QK2ILtog][inet[/192.168.217.130:9300]], reason: zen-disco-join (elected_as_master)
+[2013-12-18 23:52:02,719][INFO ][discovery                ] [Toynbee, Mortimer] elasticsearch/konEh93yRlWQa9QK2ILtog
+[2013-12-18 23:52:02,789][INFO ][http                     ] [Toynbee, Mortimer] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.130:9200]}
+[2013-12-18 23:52:02,790][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: started
+[2013-12-18 23:52:02,874][INFO ][gateway                  ] [Toynbee, Mortimer] recovered [0] indices into cluster_state

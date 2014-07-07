@@ -1,0 +1,55 @@
+[2014-06-03 10:02:02,855][WARN ][cluster.service          ] [Supreme Intelligence] failed to reconnect to node [Supreme Intelligence][4PZtIzIVTby-XzPMtRvwIA][inet[/192.168.197.130:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Supreme Intelligence][inet[/192.168.197.130:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.197.130:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2014-06-03 10:06:03,254][WARN ][cluster.service          ] [Supreme Intelligence] failed to reconnect to node [Supreme Intelligence][4PZtIzIVTby-XzPMtRvwIA][inet[/192.168.197.130:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Supreme Intelligence][inet[/192.168.197.130:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.197.130:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2014-06-03 14:16:13,079][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2014-06-03 14:16:13,086][INFO ][node                     ] [Bogeyman] {0.90.0}[2188]: initializing ...
+[2014-06-03 14:16:13,094][INFO ][plugins                  ] [Bogeyman] loaded [analysis-kuromoji], sites []
+[2014-06-03 14:16:16,790][INFO ][node                     ] [Bogeyman] {0.90.0}[2188]: initialized
+[2014-06-03 14:16:16,790][INFO ][node                     ] [Bogeyman] {0.90.0}[2188]: starting ...
+[2014-06-03 14:16:16,985][INFO ][transport                ] [Bogeyman] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.111:9300]}
+[2014-06-03 14:16:21,979][INFO ][cluster.service          ] [Bogeyman] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-06-03 14:16:22,022][INFO ][discovery                ] [Bogeyman] elasticsearch/masEwdLoSHaRjpHohbZEDw
+[2014-06-03 14:16:22,026][INFO ][http                     ] [Bogeyman] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.111:9200]}
+[2014-06-03 14:16:22,026][INFO ][node                     ] [Bogeyman] {0.90.0}[2188]: started
+[2014-06-03 14:19:19,336][INFO ][discovery.zen            ] [Bogeyman] master_left [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], reason [do not exists on master, act as master failure]
+[2014-06-03 14:19:19,433][INFO ][cluster.service          ] [Bogeyman] master {new [Bogeyman][masEwdLoSHaRjpHohbZEDw][inet[/192.168.1.111:9300]], previous [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]}, removed {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-master_failed ([Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]])
+[2014-06-03 14:47:31,974][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][1853][6] duration [1.3s], collections [1]/[15.7s], total [1.3s]/[2.3s], memory [69mb]->[72.7mb]/[1011.2mb], all_pools {[Code Cache] [3.7mb]->[3.7mb]/[32mb]}{[Par Eden Space] [29.3mb]->[29.3mb]/[102.5mb]}{[Par Survivor Space] [9.6mb]->[12.7mb]/[12.7mb]}{[CMS Old Gen] [30mb]->[30.6mb]/[896mb]}{[CMS Perm Gen] [18.6mb]->[18.6mb]/[64mb]}
+[2014-06-03 15:14:35,468][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][3472][7] duration [1.8s], collections [1]/[2.4s], total [1.8s]/[4.1s], memory [141.8mb]->[61.4mb]/[1011.2mb], all_pools {[Code Cache] [4mb]->[4mb]/[32mb]}{[Par Eden Space] [98.4mb]->[1mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[12.7mb]/[12.7mb]}{[CMS Old Gen] [30.6mb]->[47.7mb]/[896mb]}{[CMS Perm Gen] [20.2mb]->[20.2mb]/[64mb]}
+[2014-06-03 15:29:57,553][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][4391][8] duration [1.4s], collections [1]/[2.4s], total [1.4s]/[5.6s], memory [154.5mb]->[71.4mb]/[1011.2mb], all_pools {[Code Cache] [4.5mb]->[4.5mb]/[32mb]}{[Par Eden Space] [94mb]->[2.4mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[11.2mb]/[12.7mb]}{[CMS Old Gen] [47.7mb]->[57.8mb]/[896mb]}{[CMS Perm Gen] [20.3mb]->[20.3mb]/[64mb]}
+[2014-06-03 16:52:34,135][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][9329][190] duration [2s], collections [1]/[2.2s], total [2s]/[16.8s], memory [288mb]->[194mb]/[1011.2mb], all_pools {[Code Cache] [7.5mb]->[7.5mb]/[32mb]}{[Par Eden Space] [97.1mb]->[420.6kb]/[102.5mb]}{[Par Survivor Space] [12mb]->[7.5mb]/[12.7mb]}{[CMS Old Gen] [178.7mb]->[186.1mb]/[896mb]}{[CMS Perm Gen] [21.5mb]->[21.5mb]/[64mb]}
+[2014-06-03 17:12:51,513][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][10539][214] duration [2.2s], collections [1]/[3.2s], total [2.2s]/[21.4s], memory [304.2mb]->[207mb]/[1011.2mb], all_pools {[Code Cache] [7.5mb]->[7.5mb]/[32mb]}{[Par Eden Space] [99.1mb]->[24.1kb]/[102.5mb]}{[Par Survivor Space] [5.1mb]->[6.9mb]/[12.7mb]}{[CMS Old Gen] [199.9mb]->[200mb]/[896mb]}{[CMS Perm Gen] [21.5mb]->[21.5mb]/[64mb]}
+[2014-06-03 17:15:22,798][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][10565][217] duration [1s], collections [1]/[2s], total [1s]/[22.9s], memory [299mb]->[213.3mb]/[1011.2mb], all_pools {[Code Cache] [7.5mb]->[7.5mb]/[32mb]}{[Par Eden Space] [88.8mb]->[419.6kb]/[102.5mb]}{[Par Survivor Space] [8.9mb]->[11.1mb]/[12.7mb]}{[CMS Old Gen] [201.2mb]->[201.7mb]/[896mb]}{[CMS Perm Gen] [21.5mb]->[21.5mb]/[64mb]}
+[2014-06-03 17:48:05,649][WARN ][monitor.jvm              ] [Bogeyman] [gc][ParNew][12507][224] duration [4.6s], collections [1]/[17s], total [4.6s]/[28.1s], memory [277.5mb]->[228.5mb]/[1011.2mb], all_pools {[Code Cache] [7.6mb]->[7.6mb]/[32mb]}{[Par Eden Space] [65.4mb]->[13.2mb]/[102.5mb]}{[Par Survivor Space] [7.5mb]->[10.2mb]/[12.7mb]}{[CMS Old Gen] [204.5mb]->[205mb]/[896mb]}{[CMS Perm Gen] [21.5mb]->[21.5mb]/[64mb]}

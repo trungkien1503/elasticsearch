@@ -1,0 +1,10 @@
+[2014-03-27 06:11:12,990][INFO ][node                     ] [Acrobat] {0.90.0}[2244]: initializing ...
+[2014-03-27 06:11:13,108][INFO ][plugins                  ] [Acrobat] loaded [analysis-kuromoji], sites []
+[2014-03-27 06:11:20,019][INFO ][node                     ] [Acrobat] {0.90.0}[2244]: initialized
+[2014-03-27 06:11:20,020][INFO ][node                     ] [Acrobat] {0.90.0}[2244]: starting ...
+[2014-03-27 06:11:20,333][INFO ][transport                ] [Acrobat] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.199:9300]}
+[2014-03-27 06:11:23,727][INFO ][cluster.service          ] [Acrobat] new_master [Acrobat][35qdlI9fSmWbTEat98hdzg][inet[/192.168.1.199:9300]], reason: zen-disco-join (elected_as_master)
+[2014-03-27 06:11:23,759][INFO ][discovery                ] [Acrobat] elasticsearch/35qdlI9fSmWbTEat98hdzg
+[2014-03-27 06:11:23,825][INFO ][http                     ] [Acrobat] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.199:9200]}
+[2014-03-27 06:11:23,825][INFO ][node                     ] [Acrobat] {0.90.0}[2244]: started
+[2014-03-27 06:11:25,786][INFO ][gateway                  ] [Acrobat] recovered [7] indices into cluster_state

@@ -1,0 +1,11 @@
+[2013-12-20 09:30:57,499][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-12-20 09:30:58,101][INFO ][node                     ] [Nuke - Squadron Supreme member] {0.90.0}[2279]: initializing ...
+[2013-12-20 09:30:58,483][INFO ][plugins                  ] [Nuke - Squadron Supreme member] loaded [analysis-kuromoji], sites []
+[2013-12-20 09:31:19,355][INFO ][node                     ] [Nuke - Squadron Supreme member] {0.90.0}[2279]: initialized
+[2013-12-20 09:31:19,355][INFO ][node                     ] [Nuke - Squadron Supreme member] {0.90.0}[2279]: starting ...
+[2013-12-20 09:31:19,713][INFO ][transport                ] [Nuke - Squadron Supreme member] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.130:9300]}
+[2013-12-20 09:31:23,149][INFO ][cluster.service          ] [Nuke - Squadron Supreme member] new_master [Nuke - Squadron Supreme member][Y6uRn6yURMSnlYD8HMcNlg][inet[/192.168.217.130:9300]], reason: zen-disco-join (elected_as_master)
+[2013-12-20 09:31:23,184][INFO ][discovery                ] [Nuke - Squadron Supreme member] elasticsearch/Y6uRn6yURMSnlYD8HMcNlg
+[2013-12-20 09:31:23,220][INFO ][http                     ] [Nuke - Squadron Supreme member] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.130:9200]}
+[2013-12-20 09:31:23,220][INFO ][node                     ] [Nuke - Squadron Supreme member] {0.90.0}[2279]: started
+[2013-12-20 09:31:24,599][INFO ][gateway                  ] [Nuke - Squadron Supreme member] recovered [7] indices into cluster_state

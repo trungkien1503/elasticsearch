@@ -1,0 +1,12 @@
+[2014-04-13 01:21:02,209][INFO ][node                     ] [Photon] {0.90.0}[2120]: initializing ...
+[2014-04-13 01:21:04,921][INFO ][plugins                  ] [Photon] loaded [analysis-kuromoji], sites []
+[2014-04-13 01:21:17,614][INFO ][node                     ] [Photon] {0.90.0}[2120]: initialized
+[2014-04-13 01:21:17,615][INFO ][node                     ] [Photon] {0.90.0}[2120]: starting ...
+[2014-04-13 01:21:18,019][INFO ][transport                ] [Photon] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.105:9300]}
+[2014-04-13 01:21:21,507][INFO ][cluster.service          ] [Photon] new_master [Photon][i8eZj5JMR_SfIzWbFAwAqQ][inet[/192.168.1.105:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-13 01:21:21,549][INFO ][discovery                ] [Photon] elasticsearch/i8eZj5JMR_SfIzWbFAwAqQ
+[2014-04-13 01:21:22,401][INFO ][http                     ] [Photon] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.105:9200]}
+[2014-04-13 01:21:22,401][INFO ][node                     ] [Photon] {0.90.0}[2120]: started
+[2014-04-13 01:21:30,478][INFO ][gateway                  ] [Photon] recovered [7] indices into cluster_state
+[2014-04-13 14:32:05,804][WARN ][monitor.jvm              ] [Photon] [gc][ParNew][47376][8] duration [2.6s], collections [1]/[3.1s], total [2.6s]/[3.4s], memory [127.7mb]->[27.2mb]/[1011.2mb], all_pools {[Code Cache] [1.8mb]->[1.8mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.9mb]/[102.5mb]}{[Par Survivor Space] [8.3mb]->[8.4mb]/[12.7mb]}{[CMS Old Gen] [16.8mb]->[16.8mb]/[896mb]}{[CMS Perm Gen] [19.7mb]->[19.7mb]/[128mb]}
+[2014-04-13 17:05:58,161][WARN ][monitor.jvm              ] [Photon] [gc][ParNew][56588][9] duration [2.1s], collections [1]/[2.4s], total [2.1s]/[5.5s], memory [127.7mb]->[28.8mb]/[1011.2mb], all_pools {[Code Cache] [1.8mb]->[1.8mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.9mb]/[102.5mb]}{[Par Survivor Space] [8.4mb]->[5.6mb]/[12.7mb]}{[CMS Old Gen] [16.8mb]->[21.2mb]/[896mb]}{[CMS Perm Gen] [19.7mb]->[19.7mb]/[128mb]}

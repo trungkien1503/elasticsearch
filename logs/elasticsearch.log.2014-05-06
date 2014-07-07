@@ -1,0 +1,7 @@
+[2014-05-06 09:13:39,807][INFO ][cluster.metadata         ] [Power Skrull] [activities] deleting index
+[2014-05-06 09:13:41,549][INFO ][cluster.metadata         ] [Power Skrull] [activities] creating index, cause [api], shards [5]/[1], mappings [activity]
+[2014-05-06 09:19:59,279][INFO ][cluster.metadata         ] [Power Skrull] [activities] deleting index
+[2014-05-06 09:19:59,432][INFO ][cluster.metadata         ] [Power Skrull] [activities] creating index, cause [api], shards [5]/[1], mappings [activity]
+[2014-05-06 20:23:11,422][INFO ][cluster.metadata         ] [Power Skrull] [activities] deleting index
+[2014-05-06 20:23:11,766][INFO ][cluster.metadata         ] [Power Skrull] [activities] creating index, cause [api], shards [5]/[1], mappings [activity]
+[2014-05-06 21:09:47,270][INFO ][monitor.jvm              ] [Power Skrull] [gc][ParNew][1096264][165] duration [902ms], collections [1]/[1.4s], total [902ms]/[31.2s], memory [184.2mb]->[83.9mb]/[1011.2mb], all_pools {[Code Cache] [4.4mb]->[4.4mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.6mb]/[102.5mb]}{[Par Survivor Space] [3.2mb]->[3.2mb]/[12.7mb]}{[CMS Old Gen] [78.5mb]->[78.9mb]/[896mb]}{[CMS Perm Gen] [23.8mb]->[23.8mb]/[128mb]}

@@ -1,0 +1,10 @@
+[2014-03-29 01:14:59,277][INFO ][node                     ] [Mop Man] {0.90.0}[2280]: initializing ...
+[2014-03-29 01:14:59,457][INFO ][plugins                  ] [Mop Man] loaded [analysis-kuromoji], sites []
+[2014-03-29 01:15:17,879][INFO ][node                     ] [Mop Man] {0.90.0}[2280]: initialized
+[2014-03-29 01:15:17,880][INFO ][node                     ] [Mop Man] {0.90.0}[2280]: starting ...
+[2014-03-29 01:15:18,581][INFO ][transport                ] [Mop Man] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.199:9300]}
+[2014-03-29 01:15:22,890][INFO ][cluster.service          ] [Mop Man] new_master [Mop Man][ZGtOx8I_TTa_JNZWCKVKZw][inet[/192.168.1.199:9300]], reason: zen-disco-join (elected_as_master)
+[2014-03-29 01:15:22,943][INFO ][discovery                ] [Mop Man] elasticsearch/ZGtOx8I_TTa_JNZWCKVKZw
+[2014-03-29 01:15:23,007][INFO ][http                     ] [Mop Man] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.199:9200]}
+[2014-03-29 01:15:23,008][INFO ][node                     ] [Mop Man] {0.90.0}[2280]: started
+[2014-03-29 01:15:27,445][INFO ][gateway                  ] [Mop Man] recovered [7] indices into cluster_state

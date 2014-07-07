@@ -1,0 +1,17 @@
+[2014-04-24 00:17:57,153][WARN ][monitor.jvm              ] [Kamuu] [gc][ParNew][67999][13] duration [3.5s], collections [1]/[4.6s], total [3.5s]/[5.2s], memory [151.5mb]->[50.6mb]/[1011.2mb], all_pools {[Code Cache] [2.5mb]->[2.5mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.5mb]/[102.5mb]}{[Par Survivor Space] [1.9mb]->[1.7mb]/[12.7mb]}{[CMS Old Gen] [47.1mb]->[47.3mb]/[896mb]}{[CMS Perm Gen] [22.8mb]->[22.8mb]/[128mb]}
+[2014-04-24 04:16:41,657][INFO ][node                     ] [Power Skrull] {0.90.0}[2337]: initializing ...
+[2014-04-24 04:16:41,785][INFO ][plugins                  ] [Power Skrull] loaded [analysis-kuromoji], sites []
+[2014-04-24 04:16:52,034][INFO ][node                     ] [Power Skrull] {0.90.0}[2337]: initialized
+[2014-04-24 04:16:52,035][INFO ][node                     ] [Power Skrull] {0.90.0}[2337]: starting ...
+[2014-04-24 04:16:52,273][INFO ][transport                ] [Power Skrull] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.109:9300]}
+[2014-04-24 04:16:55,599][INFO ][cluster.service          ] [Power Skrull] new_master [Power Skrull][MRUbWJppTg2pF3_DMgJ1UQ][inet[/192.168.1.109:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-24 04:16:55,623][INFO ][discovery                ] [Power Skrull] elasticsearch/MRUbWJppTg2pF3_DMgJ1UQ
+[2014-04-24 04:16:55,673][INFO ][http                     ] [Power Skrull] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.109:9200]}
+[2014-04-24 04:16:55,674][INFO ][node                     ] [Power Skrull] {0.90.0}[2337]: started
+[2014-04-24 04:16:57,808][INFO ][gateway                  ] [Power Skrull] recovered [7] indices into cluster_state
+[2014-04-24 04:20:45,808][INFO ][cluster.service          ] [Power Skrull] added {[Alraune, Marlene][vXYIL6LtSo6be1TuIV9QFg][inet[/192.168.1.105:9300]],}, reason: zen-disco-receive(join from node[[Alraune, Marlene][vXYIL6LtSo6be1TuIV9QFg][inet[/192.168.1.105:9300]]])
+[2014-04-24 04:32:15,249][INFO ][cluster.service          ] [Power Skrull] removed {[Alraune, Marlene][vXYIL6LtSo6be1TuIV9QFg][inet[/192.168.1.105:9300]],}, reason: zen-disco-node_failed([Alraune, Marlene][vXYIL6LtSo6be1TuIV9QFg][inet[/192.168.1.105:9300]]), reason failed to ping, tried [3] times, each with maximum [30s] timeout
+[2014-04-24 04:44:39,651][INFO ][cluster.service          ] [Power Skrull] added {[Judd, Eugene][nYvFF1XUS9-j7CYvJAyAvw][inet[/192.168.1.105:9300]],}, reason: zen-disco-receive(join from node[[Judd, Eugene][nYvFF1XUS9-j7CYvJAyAvw][inet[/192.168.1.105:9300]]])
+[2014-04-24 19:53:14,987][INFO ][monitor.jvm              ] [Power Skrull] [gc][ParNew][56121][12] duration [848ms], collections [1]/[1.6s], total [848ms]/[1.3s], memory [137.4mb]->[38.3mb]/[1011.2mb], all_pools {[Code Cache] [2.5mb]->[2.5mb]/[48mb]}{[Par Eden Space] [101.5mb]->[1.9mb]/[102.5mb]}{[Par Survivor Space] [397.1kb]->[890.9kb]/[12.7mb]}{[CMS Old Gen] [35.5mb]->[35.5mb]/[896mb]}{[CMS Perm Gen] [20.1mb]->[20.2mb]/[128mb]}
+[2014-04-24 20:59:42,940][INFO ][cluster.metadata         ] [Power Skrull] [spots] update_mapping [spot] (dynamic)
+[2014-04-24 21:01:03,954][INFO ][monitor.jvm              ] [Power Skrull] [gc][ParNew][60180][14] duration [916ms], collections [1]/[1.4s], total [916ms]/[2.9s], memory [154.4mb]->[59.6mb]/[1011.2mb], all_pools {[Code Cache] [3mb]->[3mb]/[48mb]}{[Par Eden Space] [101.9mb]->[1.1mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[7.7mb]/[12.7mb]}{[CMS Old Gen] [39.7mb]->[50.6mb]/[896mb]}{[CMS Perm Gen] [23.1mb]->[23.1mb]/[128mb]}

@@ -1,0 +1,10 @@
+[2014-06-19 12:53:40,283][INFO ][node                     ] [Persuader] {0.90.0}[2089]: initializing ...
+[2014-06-19 12:53:40,439][INFO ][plugins                  ] [Persuader] loaded [analysis-pinyin, analysis-kuromoji], sites []
+[2014-06-19 12:54:39,118][INFO ][node                     ] [Persuader] {0.90.0}[2089]: initialized
+[2014-06-19 12:54:39,119][INFO ][node                     ] [Persuader] {0.90.0}[2089]: starting ...
+[2014-06-19 12:54:39,616][INFO ][transport                ] [Persuader] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.181.129:9300]}
+[2014-06-19 12:54:43,065][INFO ][cluster.service          ] [Persuader] new_master [Persuader][m-00TbTXT1afzWFmXM17vw][inet[/192.168.181.129:9300]], reason: zen-disco-join (elected_as_master)
+[2014-06-19 12:54:43,214][INFO ][discovery                ] [Persuader] elasticsearch/m-00TbTXT1afzWFmXM17vw
+[2014-06-19 12:54:43,380][INFO ][http                     ] [Persuader] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.181.129:9200]}
+[2014-06-19 12:54:43,381][INFO ][node                     ] [Persuader] {0.90.0}[2089]: started
+[2014-06-19 12:54:46,217][INFO ][gateway                  ] [Persuader] recovered [10] indices into cluster_state

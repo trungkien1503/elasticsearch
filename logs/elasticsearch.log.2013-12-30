@@ -1,0 +1,13 @@
+[2013-12-30 06:12:56,326][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-12-30 06:12:56,621][INFO ][node                     ] [Recorder] {0.90.0}[2127]: initializing ...
+[2013-12-30 06:12:56,777][INFO ][plugins                  ] [Recorder] loaded [analysis-kuromoji], sites []
+[2013-12-30 06:13:14,578][INFO ][node                     ] [Recorder] {0.90.0}[2127]: initialized
+[2013-12-30 06:13:14,579][INFO ][node                     ] [Recorder] {0.90.0}[2127]: starting ...
+[2013-12-30 06:13:15,637][INFO ][transport                ] [Recorder] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.130:9300]}
+[2013-12-30 06:13:19,919][INFO ][cluster.service          ] [Recorder] new_master [Recorder][XOdQZihJSI2RzZaFA5ZhzA][inet[/192.168.217.130:9300]], reason: zen-disco-join (elected_as_master)
+[2013-12-30 06:13:20,040][INFO ][discovery                ] [Recorder] elasticsearch/XOdQZihJSI2RzZaFA5ZhzA
+[2013-12-30 06:13:20,169][INFO ][http                     ] [Recorder] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.130:9200]}
+[2013-12-30 06:13:20,170][INFO ][node                     ] [Recorder] {0.90.0}[2127]: started
+[2013-12-30 06:13:23,654][INFO ][gateway                  ] [Recorder] recovered [7] indices into cluster_state
+[2013-12-30 06:24:22,508][INFO ][cluster.service          ] [Recorder] added {[Mantis][qqknrfmKQwC6sDXc34ZDvg][inet[/192.168.217.128:9300]],}, reason: zen-disco-receive(join from node[[Mantis][qqknrfmKQwC6sDXc34ZDvg][inet[/192.168.217.128:9300]]])
+[2013-12-29 23:31:42,807][INFO ][cluster.service          ] [Recorder] removed {[Mantis][qqknrfmKQwC6sDXc34ZDvg][inet[/192.168.217.128:9300]],}, reason: zen-disco-node_failed([Mantis][qqknrfmKQwC6sDXc34ZDvg][inet[/192.168.217.128:9300]]), reason failed to ping, tried [3] times, each with maximum [30s] timeout

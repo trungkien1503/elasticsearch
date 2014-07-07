@@ -1,0 +1,28 @@
+[2014-05-18 20:18:13,366][INFO ][node                     ] [Doctor Faustus] {0.90.0}[2366]: stopping ...
+[2014-05-18 20:18:28,326][INFO ][node                     ] [Doctor Faustus] {0.90.0}[2366]: stopped
+[2014-05-18 20:18:28,326][INFO ][node                     ] [Doctor Faustus] {0.90.0}[2366]: closing ...
+[2014-05-18 20:18:28,697][INFO ][node                     ] [Doctor Faustus] {0.90.0}[2366]: closed
+[2014-05-18 20:20:25,835][INFO ][node                     ] [Tiboro] {0.90.0}[2329]: initializing ...
+[2014-05-18 20:20:25,920][INFO ][plugins                  ] [Tiboro] loaded [analysis-kuromoji], sites []
+[2014-05-18 20:20:38,247][INFO ][node                     ] [Tiboro] {0.90.0}[2329]: initialized
+[2014-05-18 20:20:38,247][INFO ][node                     ] [Tiboro] {0.90.0}[2329]: starting ...
+[2014-05-18 20:20:38,618][INFO ][transport                ] [Tiboro] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.99:9300]}
+[2014-05-18 20:20:42,222][INFO ][cluster.service          ] [Tiboro] detected_master [Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]], added {[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]],}, reason: zen-disco-receive(from master [[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]])
+[2014-05-18 20:20:42,267][INFO ][discovery                ] [Tiboro] elasticsearch/tFEvIIO5SaG24cWhbRs3vA
+[2014-05-18 20:20:42,270][INFO ][http                     ] [Tiboro] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.99:9200]}
+[2014-05-18 20:20:42,270][INFO ][node                     ] [Tiboro] {0.90.0}[2329]: started
+[2014-05-18 21:20:51,203][INFO ][discovery.zen            ] [Tiboro] master_left [[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]], reason [do not exists on master, act as master failure]
+[2014-05-18 21:21:01,352][INFO ][cluster.service          ] [Tiboro] master {new [Tiboro][tFEvIIO5SaG24cWhbRs3vA][inet[/192.168.1.99:9300]], previous [Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]}, removed {[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]],}, reason: zen-disco-master_failed ([Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]])
+[2014-05-18 22:41:12,982][WARN ][monitor.jvm              ] [Tiboro] [gc][ParNew][7922][8] duration [13.4s], collections [1]/[15.6s], total [13.4s]/[14.8s], memory [142mb]->[50.3mb]/[1011.2mb], all_pools {[Code Cache] [2mb]->[2mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.2mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[10.9mb]/[12.7mb]}{[CMS Old Gen] [26.8mb]->[38mb]/[896mb]}{[CMS Perm Gen] [20mb]->[20mb]/[128mb]}
+[2014-05-18 22:49:39,641][INFO ][node                     ] [Tiboro] {0.90.0}[2329]: stopping ...
+[2014-05-18 22:55:16,268][INFO ][node                     ] [Briquette] {0.90.0}[2258]: initializing ...
+[2014-05-18 22:55:16,590][INFO ][plugins                  ] [Briquette] loaded [analysis-kuromoji], sites []
+[2014-05-18 23:00:54,749][INFO ][node                     ] [Briquette] {0.90.0}[2258]: initialized
+[2014-05-18 23:00:54,750][INFO ][node                     ] [Briquette] {0.90.0}[2258]: starting ...
+[2014-05-18 23:00:56,963][INFO ][transport                ] [Briquette] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.99:9300]}
+[2014-05-18 23:01:01,849][INFO ][cluster.service          ] [Briquette] detected_master [Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]], added {[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]],}, reason: zen-disco-receive(from master [[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]])
+[2014-05-18 23:01:04,682][INFO ][discovery                ] [Briquette] elasticsearch/-LVTuNBjSO2M-mU5QyOZ6Q
+[2014-05-18 23:01:04,695][INFO ][http                     ] [Briquette] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.99:9200]}
+[2014-05-18 23:01:04,695][INFO ][node                     ] [Briquette] {0.90.0}[2258]: started
+[2014-05-18 23:06:29,196][INFO ][discovery.zen            ] [Briquette] master_left [[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]], reason [do not exists on master, act as master failure]
+[2014-05-18 23:06:29,200][INFO ][cluster.service          ] [Briquette] master {new [Briquette][-LVTuNBjSO2M-mU5QyOZ6Q][inet[/192.168.1.99:9300]], previous [Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]]}, removed {[Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]],}, reason: zen-disco-master_failed ([Spider-Woman][F4-SjATfR-y0JLt77bSllQ][inet[/192.168.1.105:9300]])

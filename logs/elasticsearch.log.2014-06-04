@@ -1,0 +1,52 @@
+[2014-06-04 08:52:10,352][INFO ][node                     ] [Bob] {0.90.0}[2194]: initializing ...
+[2014-06-04 08:52:10,366][INFO ][plugins                  ] [Bob] loaded [analysis-kuromoji], sites []
+[2014-06-04 08:52:47,734][INFO ][node                     ] [Bob] {0.90.0}[2194]: initialized
+[2014-06-04 08:52:47,735][INFO ][node                     ] [Bob] {0.90.0}[2194]: starting ...
+[2014-06-04 08:52:47,864][INFO ][transport                ] [Bob] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.111:9300]}
+[2014-06-04 08:52:55,141][INFO ][discovery.zen            ] [Bob] failed to send join request to master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], reason [org.elasticsearch.ElasticSearchTimeoutException: Timeout waiting for task.]
+[2014-06-04 08:52:55,303][INFO ][cluster.service          ] [Bob] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-06-04 08:52:55,665][INFO ][discovery                ] [Bob] elasticsearch/ucPGsUapTZ6jnmpe5LTy6w
+[2014-06-04 08:52:55,735][INFO ][http                     ] [Bob] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.111:9200]}
+[2014-06-04 08:52:55,736][INFO ][node                     ] [Bob] {0.90.0}[2194]: started
+[2014-06-04 08:53:20,670][WARN ][monitor.jvm              ] [Bob] [gc][ParNew][27][2] duration [5.6s], collections [1]/[6.1s], total [5.6s]/[11.7s], memory [120.5mb]->[27.6mb]/[1011.2mb], all_pools {[Code Cache] [844.7kb]->[846.1kb]/[48mb]}{[Par Eden Space] [101.5mb]->[1.3mb]/[102.5mb]}{[Par Survivor Space] [12.7mb]->[12.7mb]/[12.7mb]}{[CMS Old Gen] [6.1mb]->[13.5mb]/[896mb]}{[CMS Perm Gen] [19mb]->[19mb]/[128mb]}
+[2014-06-04 09:26:26,274][INFO ][node                     ] [ElectroCute] {0.90.0}[2147]: initializing ...
+[2014-06-04 09:26:26,286][INFO ][plugins                  ] [ElectroCute] loaded [analysis-kuromoji], sites []
+[2014-06-04 09:26:28,689][INFO ][node                     ] [ElectroCute] {0.90.0}[2147]: initialized
+[2014-06-04 09:26:28,690][INFO ][node                     ] [ElectroCute] {0.90.0}[2147]: starting ...
+[2014-06-04 09:26:28,770][INFO ][transport                ] [ElectroCute] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.111:9300]}
+[2014-06-04 09:26:58,989][WARN ][discovery                ] [ElectroCute] waited for 30s and no initial state was set by the discovery
+[2014-06-04 09:26:58,990][INFO ][discovery                ] [ElectroCute] elasticsearch/QBipjyc7T_S77XmTyo1xGw
+[2014-06-04 09:26:58,997][INFO ][http                     ] [ElectroCute] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.111:9200]}
+[2014-06-04 09:26:58,998][INFO ][node                     ] [ElectroCute] {0.90.0}[2147]: started
+[2014-06-04 09:27:02,162][WARN ][discovery.zen            ] [ElectroCute] failed to connect to master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], retrying...
+org.elasticsearch.transport.ConnectTransportException: [Comet Man][inet[/192.168.1.138:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:680)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+	at org.elasticsearch.discovery.zen.ZenDiscovery.innterJoinCluster(ZenDiscovery.java:337)
+	at org.elasticsearch.discovery.zen.ZenDiscovery.access$500(ZenDiscovery.java:76)
+	at org.elasticsearch.discovery.zen.ZenDiscovery$1.run(ZenDiscovery.java:290)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.138:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2014-06-04 09:27:05,219][INFO ][cluster.service          ] [ElectroCute] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-06-04 17:32:22,669][WARN ][monitor.jvm              ] [ElectroCute] [gc][ParNew][28863][9] duration [19.1s], collections [1]/[21.1s], total [19.1s]/[20.5s], memory [153.5mb]->[51.3mb]/[1011.2mb], all_pools {[Code Cache] [2.5mb]->[2.5mb]/[48mb]}{[Par Eden Space] [102.5mb]->[1.7mb]/[102.5mb]}{[Par Survivor Space] [2mb]->[660.1kb]/[12.7mb]}{[CMS Old Gen] [48.9mb]->[48.9mb]/[896mb]}{[CMS Perm Gen] [19.7mb]->[19.7mb]/[128mb]}
+[2014-06-04 22:26:59,956][INFO ][node                     ] [Sebastian Shaw] {0.90.0}[2387]: initializing ...
+[2014-06-04 22:27:00,030][INFO ][plugins                  ] [Sebastian Shaw] loaded [analysis-kuromoji], sites []
+[2014-06-04 22:27:04,436][INFO ][node                     ] [Sebastian Shaw] {0.90.0}[2387]: initialized
+[2014-06-04 22:27:04,436][INFO ][node                     ] [Sebastian Shaw] {0.90.0}[2387]: starting ...
+[2014-06-04 22:27:04,552][INFO ][transport                ] [Sebastian Shaw] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.217.144:9300]}
+[2014-06-04 22:27:08,024][INFO ][cluster.service          ] [Sebastian Shaw] new_master [Sebastian Shaw][qDFNCe-VQUa9K5fWKwHbQQ][inet[/192.168.217.144:9300]], reason: zen-disco-join (elected_as_master)
+[2014-06-04 22:27:09,144][INFO ][discovery                ] [Sebastian Shaw] elasticsearch/qDFNCe-VQUa9K5fWKwHbQQ
+[2014-06-04 22:27:09,315][INFO ][http                     ] [Sebastian Shaw] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.217.144:9200]}
+[2014-06-04 22:27:09,316][INFO ][node                     ] [Sebastian Shaw] {0.90.0}[2387]: started
+[2014-06-04 22:27:15,007][INFO ][gateway                  ] [Sebastian Shaw] recovered [9] indices into cluster_state

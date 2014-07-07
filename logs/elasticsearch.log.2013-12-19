@@ -1,0 +1,22 @@
+[2013-12-19 01:10:16,083][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [cities] creating index, cause [api], shards [5]/[1], mappings [city]
+[2013-12-19 01:10:17,815][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [states] creating index, cause [api], shards [5]/[1], mappings [state]
+[2013-12-19 01:10:18,818][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [photos] creating index, cause [api], shards [5]/[1], mappings [photo]
+[2013-12-19 01:10:19,912][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [pois] creating index, cause [api], shards [5]/[1], mappings [poi]
+[2013-12-19 01:10:21,076][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [users] creating index, cause [api], shards [5]/[1], mappings [user]
+[2013-12-19 01:10:24,836][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [spots] creating index, cause [api], shards [5]/[1], mappings [spot]
+[2013-12-19 01:12:55,122][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [geo_locations] creating index, cause [api], shards [5]/[1], mappings [geo_location]
+[2013-12-19 01:13:33,538][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [photos] deleting index
+[2013-12-19 01:13:33,885][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [photos] creating index, cause [api], shards [5]/[1], mappings [photo]
+[2013-12-19 01:13:48,387][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [photos] update_mapping [photo] (dynamic)
+[2013-12-19 01:15:54,391][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [users] deleting index
+[2013-12-19 01:15:54,574][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [users] creating index, cause [api], shards [5]/[1], mappings [user]
+[2013-12-19 01:15:56,406][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [users] update_mapping [user] (dynamic)
+[2013-12-19 01:15:56,441][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [users] update_mapping [user] (dynamic)
+[2013-12-19 01:17:11,073][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [pois] deleting index
+[2013-12-19 01:17:11,389][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [pois] creating index, cause [api], shards [5]/[1], mappings [poi]
+[2013-12-19 01:17:14,313][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [pois] update_mapping [poi] (dynamic)
+[2013-12-19 01:17:14,360][INFO ][cluster.metadata         ] [Toynbee, Mortimer] [pois] update_mapping [poi] (dynamic)
+[2013-12-19 02:16:04,243][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: stopping ...
+[2013-12-19 02:16:05,343][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: stopped
+[2013-12-19 02:16:05,343][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: closing ...
+[2013-12-19 02:16:06,921][INFO ][node                     ] [Toynbee, Mortimer] {0.90.0}[16946]: closed

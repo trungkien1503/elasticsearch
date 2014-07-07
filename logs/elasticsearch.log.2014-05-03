@@ -1,0 +1,1 @@
+[2014-05-03 08:46:35,394][INFO ][cluster.service          ] [Power Skrull] removed {[Judd, Eugene][nYvFF1XUS9-j7CYvJAyAvw][inet[/192.168.1.105:9300]],}, reason: zen-disco-node_failed([Judd, Eugene][nYvFF1XUS9-j7CYvJAyAvw][inet[/192.168.1.105:9300]]), reason failed to ping, tried [3] times, each with maximum [30s] timeout

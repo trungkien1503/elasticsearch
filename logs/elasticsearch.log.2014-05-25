@@ -1,0 +1,12 @@
+[2014-05-25 20:53:06,910][INFO ][node                     ] [Legacy] {0.90.0}[2307]: initializing ...
+[2014-05-25 20:53:06,976][INFO ][plugins                  ] [Legacy] loaded [analysis-kuromoji], sites []
+[2014-05-25 20:53:12,335][INFO ][node                     ] [Legacy] {0.90.0}[2307]: initialized
+[2014-05-25 20:53:12,336][INFO ][node                     ] [Legacy] {0.90.0}[2307]: starting ...
+[2014-05-25 20:53:12,485][INFO ][transport                ] [Legacy] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.125:9300]}
+[2014-05-25 20:53:16,046][WARN ][discovery.zen.ping.multicast] [Legacy] received ping response ping_response{target [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2014-05-25 20:53:16,427][INFO ][cluster.service          ] [Legacy] detected_master [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]], added {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-receive(from master [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]])
+[2014-05-25 20:53:16,456][INFO ][discovery                ] [Legacy] elasticsearch/TUW9c9vVQm-97oVkuDBLWw
+[2014-05-25 20:53:16,460][INFO ][http                     ] [Legacy] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.125:9200]}
+[2014-05-25 20:53:16,460][INFO ][node                     ] [Legacy] {0.90.0}[2307]: started
+[2014-05-25 22:29:01,940][INFO ][discovery.zen            ] [Legacy] master_left [[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]], reason [failed to ping, tried [3] times, each with  maximum [30s] timeout]
+[2014-05-25 22:29:01,944][INFO ][cluster.service          ] [Legacy] master {new [Legacy][TUW9c9vVQm-97oVkuDBLWw][inet[/192.168.1.125:9300]], previous [Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]]}, removed {[Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]],}, reason: zen-disco-master_failed ([Comet Man][uFEzUlcJRCaQAcGX5mo7kQ][inet[/192.168.1.138:9300]])
